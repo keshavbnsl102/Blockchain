@@ -38,7 +38,7 @@ class Blockchain:
             if hash_operation[:4]=='0000':
                 check_proof=True
             else:
-                new_proof+=1
+                new_proof+=2
         return new_proof
             
             
